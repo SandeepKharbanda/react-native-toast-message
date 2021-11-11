@@ -10,6 +10,7 @@ function ErrorToast(props) {
       {...props}
       style={{ borderLeftColor: colors.redColor }}
       leadingIcon={icons.error}
+      tintColor={colors.redColor}
     />
   );
 }
