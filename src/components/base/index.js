@@ -25,7 +25,8 @@ function BaseToast({
   text2Style,
   activeOpacity,
   text1NumberOfLines,
-  text2NumberOfLines
+  text2NumberOfLines,
+  tintColor
 }) {
   return (
     <TouchableOpacity
@@ -40,7 +41,7 @@ function BaseToast({
           onPress={onLeadingIconPress}
           activeOpacity={onLeadingIconPress ? activeOpacity : 1}>
           <Icon
-            style={{ ...styles.leadingIcon, ...leadingIconStyle }}
+            style={{ ...styles.leadingIcon, ...leadingIconStyle, tintColor: tintColor || null }}
             source={leadingIcon}
           />
         </TouchableOpacity>

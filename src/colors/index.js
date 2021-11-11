@@ -4,7 +4,8 @@ const colors = {
   mantis: '#69C779',
   alto: '#D8D8D8',
   dustyGray: '#979797',
-  lightSkyBlue: '#87CEFA'
+  lightSkyBlue: '#87CEFA',
+  redColor: '#ef2626'
 };
 
 export default colors;
